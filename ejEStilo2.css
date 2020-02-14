@@ -1,0 +1,14 @@
+h1{
+    color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid black;
+    padding: 20px 100px 10px 5px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
