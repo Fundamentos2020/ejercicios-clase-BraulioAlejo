@@ -1,0 +1,40 @@
+/*
+Espicificidad (a,b,c,d)
+
+a: Estilo definido en html
+b: ID's
+c: Clases y pseudoclases
+d: Elementos y pseudoelementos
+*/
+#menu {
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    width: 100px
+}
+
+#menu li:hover{
+    background-color: white;
+    color: black;
+}
+
+#content{
+    border: 1px solid black;
+}
+
+#content p{
+    color:  blue;
+}
+
+#content > p{
+    color: green;
+}
+
+@media (min-width: 400px){
+
+}
